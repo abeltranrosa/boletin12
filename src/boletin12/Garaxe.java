@@ -17,7 +17,7 @@ public class Garaxe {
 
     public void plazas() {
 
-        if (COCHES < 2) {
+        if (COCHES < 5) {
             JOptionPane.showMessageDialog(null, "Hay plazas disponibles");
             matricula();
             COCHES++;
