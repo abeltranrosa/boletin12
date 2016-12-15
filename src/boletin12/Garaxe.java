@@ -2,17 +2,14 @@ package boletin12;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author mmoureperez
- */
+
 public class Garaxe {
 
     public static int COCHES = 0;
     String matricula;
 
     public static int getCOCHES() {
-        return COCHES;
+        return COCHES; 
     }
 
     public void plazas() {
