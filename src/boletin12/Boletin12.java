@@ -1,21 +1,19 @@
 package boletin12;
 
 import static boletin12.Garaxe.COCHES;
+
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author mmoureperez
- */
+
 public class Boletin12 {
     public static void main(String[] args) {
 
-        Garaxe obx = new Garaxe();
+        Garaxe obx = new Garaxe(); 
 
         Factura fac = new Factura();
         int res;
         do {
-            res = Integer.parseInt(JOptionPane.showInputDialog("Â¿Sale o entra en el garaje?\nMarque 1 si quiere entrar\nMarque 2 si quiere salir.\nSi quiere cerrar el programa marque 3."));
+            res = Integer.parseInt(JOptionPane.showInputDialog("¿Sale o entra en el garaje?\nMarque 1 si quiere entrar\nMarque 2 si quiere salir.\nSi quiere cerrar el programa marque 3."));
 
             if (res == 1) {
 
