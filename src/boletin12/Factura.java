@@ -2,10 +2,7 @@ package boletin12;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author mmoureperez
- */
+
 public class Factura {
 
     String mat;
@@ -15,7 +12,7 @@ public class Factura {
     float cartosDevoltos;
 
     public String pedirmatricula() {
-        Garaxe obx = new Garaxe();
+        Garaxe obx = new Garaxe(); 
         mat = obx.matricula();
         return mat;
     }
@@ -47,7 +44,13 @@ public class Factura {
 
     @Override
     public String toString() {
-        return "Factura:" + "\nMatricula=" + mat + "\nTiempo=" + tiempo + "horas" + "\nPrecio=" + pre + "â‚¬" + "\nCartos recibidos=" + cartosRecibidos + "â‚¬" + "\nCartos devoltos=" + cartosDevoltos + "â‚¬";
+        return "Factura:" + "\nMatricula=" + mat + "\nTiempo=" + tiempo + "horas" + "\nPrecio=" + pre + "€" + "\nCartos recibidos=" + cartosRecibidos + "€" + "\nCartos devoltos=" + cartosDevoltos + "€";
+    }
+
+    private static class Garaje {
+
+        public Garaje() {
+        }
     }
 
 }
