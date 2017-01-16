@@ -28,6 +28,6 @@ public class Boletin12 {
                 COCHES--;
             }
         } while (res != 3);
-
+        //Comentario Adri 
     }
 }
